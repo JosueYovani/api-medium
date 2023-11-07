@@ -41,6 +41,10 @@ const userSchema = new Schema(
         message: "{VALUE}, is not a valid role",
       },
     },
+    books: {
+      type: Array,
+      default: [],
+    },
     active: {
       type: Boolean,
       default: true,
